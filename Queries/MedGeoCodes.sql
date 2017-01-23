@@ -1,0 +1,7 @@
+select * from AccommodationBuildingsExt where AccommodationBuildingId=4850
+select * from AccommodationBuildings where AccommodationBuildingID=4850
+
+SELECT AccommodationBuildings.OTABuildingLongitude, AccommodationBuildings.OTABuildingLatitude, AccommodationBuildingsExt.MedHotelId
+FROM AccommodationBuildings
+INNER JOIN AccommodationBuildingsExt
+ON AccommodationBuildings.AccommodationBuildingID=AccommodationBuildingsExt.AccommodationBuildingId

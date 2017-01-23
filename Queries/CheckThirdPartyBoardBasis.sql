@@ -1,0 +1,1 @@
+select * from BookingInfo where EntityType='BB' and BookingRefNo='2591337'
